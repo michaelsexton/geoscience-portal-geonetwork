@@ -67,7 +67,7 @@
            <repository>
                <id>nexus.gadevs</id>
                <name>GA Public Maven Repo</name>
-               <url>hhttps://nexus.gadevs.ga/repository/maven-public</url>
+               <url>https://nexus.gadevs.ga/repository/maven-public</url>
            </repository>
          </repositories>
     <dependencies>
