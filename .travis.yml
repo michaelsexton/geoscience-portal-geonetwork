@@ -1,5 +1,5 @@
 language: java
-script: "mvn clean deploy --settings travis/settings.xml"
+script: "echo $CI_DEPLOY_USERNAME && mvn clean deploy --settings travis/settings.xml"
 install: true
 cache: 
   directories:
