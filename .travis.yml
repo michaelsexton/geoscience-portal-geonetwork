@@ -1,6 +1,6 @@
 language: java
+script: "[ ${TRAVIS_PULL_REQUEST} = 'false' ] && mvn clean deploy --settings travis/settings.xml || mvn clean verify --settings travis/settings.xml"
 install: true
-
 cache: 
   directories:
     - $HOME/.m2
@@ -9,3 +9,4 @@ cache:
       - master
   jdk:
     - oraclejdk8
+    
