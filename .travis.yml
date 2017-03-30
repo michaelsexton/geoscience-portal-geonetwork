@@ -1,7 +1,8 @@
 language: java
+sudo: required
 script: 
   - mvn clean deploy --settings travis/settings.xml
-  - pip install ansible
+  - sudo pip install ansible
 install: true
 cache: 
   directories:
