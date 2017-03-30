@@ -1,5 +1,7 @@
 language: java
-script: "echo $CI_DEPLOY_USERNAME && mvn clean deploy --settings travis/settings.xml"
+script: 
+  - mvn clean deploy --settings travis/settings.xml
+  - pip install ansible
 install: true
 cache: 
   directories:
