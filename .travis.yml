@@ -4,7 +4,6 @@ install:
   - pip install ansible
 script: 
   - mvn clean deploy --settings travis/settings.xml
-install: true
 cache: 
   directories:
     - $HOME/.m2
