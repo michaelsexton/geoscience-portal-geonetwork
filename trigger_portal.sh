@@ -9,4 +9,4 @@ curl -s -X POST \
 	-H "Travis-API-Version: 3" \
 	-H "Authorization: token $TRAVIS_TOKEN " \
 	-d "$body" \
-	https://api.travis-ci.org/repo/michaelsexton2Fgeoscience-portal/requests
+	https://api.travis-ci.org/repo/michaelsexton%2Fgeoscience-portal/requests
