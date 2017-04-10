@@ -4,7 +4,7 @@ install:
   - sudo pip install ansible
 script: 
   - mvn clean deploy --settings travis/settings.xml
-  - trigger_portal.sh
+  - ./trigger_portal.sh
 cache: 
   directories:
     - $HOME/.m2
